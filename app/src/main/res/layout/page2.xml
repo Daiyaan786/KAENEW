@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="17dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Blokfluit/Recorder : Ensembles "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Blokfluit"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="357dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

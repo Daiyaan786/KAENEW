@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <EditText
+        android:id="@+id/editTextText158"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox57"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <EditText
+        android:id="@+id/editTextText162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groepsolo's STJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox58"
+        android:layout_width="86dp"
+        android:layout_height="54dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <EditText
+        android:id="@+id/editTextText167"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="R/M STJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/editTextText168"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Concerto STJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/editTextText169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Instrument "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <ScrollView
+        android:layout_width="45dp"
+        android:layout_height="476dp"
+        tools:layout_editor_absoluteX="364dp"
+        tools:layout_editor_absoluteY="86dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextText170"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool Graad"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/editTextText171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Beg. STJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/editTextText172"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B/K STJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Strykinstrumente Junior : Solo	"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="43dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

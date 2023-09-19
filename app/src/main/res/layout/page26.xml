@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox43"
+        android:layout_width="83dp"
+        android:layout_height="45dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <EditText
+        android:id="@+id/editTextText125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Op Aria "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <EditText
+        android:id="@+id/editTextText124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bar Aria "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <EditText
+        android:id="@+id/editTextText122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Uit SS "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/editTextText123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bly SS "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <EditText
+        android:id="@+id/editTextText112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Afr Lirieke "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/editTextText113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Kuns- lied "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <EditText
+        android:id="@+id/editTextText117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Eie Keuse SS "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <EditText
+        android:id="@+id/editTextText118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool Graad "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/editTextText119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <EditText
+        android:id="@+id/editTextText120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="M/S  "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/editTextText121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Volks SS "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Sang/Vocal Senior : Solo "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ScrollView
+        android:layout_width="45dp"
+        android:layout_height="476dp"
+        tools:layout_editor_absoluteX="364dp"
+        tools:layout_editor_absoluteY="86dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextText126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Rock n Pop "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="581dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

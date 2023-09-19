@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/KAE_Background1">
+
+    <TextView
+        android:id="@+id/textViewBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_below="@id/textViewRegister"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="376dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="376dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/textViewPassword"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="376dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/textViewName"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textViewSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School:"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSchool"
+        android:layout_width="376dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/textViewSchool"
+        android:layout_marginTop="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewSchoolContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Contact Number:"
+        android:layout_below="@id/editTextSchool"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSchoolContact"
+        android:layout_width="376dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/textViewSchoolContact"
+        android:layout_marginTop="8dp"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textViewYourContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Contact Number:"
+        android:layout_below="@id/editTextSchoolContact"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextYourContact"
+        android:layout_width="376dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/textViewYourContact"
+        android:layout_marginTop="8dp"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textViewSchoolAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Address:"
+        android:layout_below="@id/editTextYourContact"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSchoolAddress"
+        android:layout_width="376dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/textViewSchoolAddress"
+        android:layout_marginTop="8dp"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="207dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/editTextSchoolAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="192dp"
+        android:text="Register" />
+
+</RelativeLayout>

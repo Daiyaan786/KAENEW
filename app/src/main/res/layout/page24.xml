@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <EditText
+        android:id="@+id/editTextText104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Afr. Lirieke SJ "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <EditText
+        android:id="@+id/editTextText105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Volksliedjie SJ "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <EditText
+        android:id="@+id/editTextText106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Blyspel SJ "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <EditText
+        android:id="@+id/editTextText107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Eie Keuse SJ "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/editTextText108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="M/S  "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editTextText109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool Graad "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextText110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Sang/Vocal Junior : Solo		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

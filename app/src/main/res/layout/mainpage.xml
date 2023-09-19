@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/buttonLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/buttonLanguage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="16dp"
+        android:text="About" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="167dp"
+        android:layout_below="@id/buttonLanguage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kae_drawable" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1dp"
+        android:text="Kaapse Afrikaanse Eisteddfod"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="131dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="146dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="248dp"
+        android:text="Register" />
+
+</RelativeLayout>

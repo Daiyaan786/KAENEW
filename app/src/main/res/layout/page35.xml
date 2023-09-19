@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <EditText
+        android:id="@+id/editTextText177"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool graad "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <EditText
+        android:id="@+id/editTextText164"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groepsolo's STS "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/editTextText174"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Instrument "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <EditText
+        android:id="@+id/editTextText175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B/K STS "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <EditText
+        android:id="@+id/editTextText178"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox62"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <EditText
+        android:id="@+id/editTextText179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Concerto STS "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <EditText
+        android:id="@+id/editTextText180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="R/M STS "
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox61"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Strykinstrumente Senior : Solo		 Strings Senior : Solo	 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

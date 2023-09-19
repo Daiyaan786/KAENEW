@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Blokfluit/Recorder : Solo		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME	 	 "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool graad  "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VB/B C B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="NB C B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Onb C B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VB/B F B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="NB F B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Onb F B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Son  B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Conc  B "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <ScrollView
+        android:layout_width="58dp"
+        android:layout_height="463dp"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="638dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

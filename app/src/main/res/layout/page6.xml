@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="370dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="20dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="258dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Houtblaasinstrumente/Woodwinds : Duet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <EditText
+        android:id="@+id/editTextText27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skoolgraad "
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <EditText
+        android:id="@+id/editTextText28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="HB "
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="116dp"
+        android:layout_height="34dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="381dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox65"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox66"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <EditText
+        android:id="@+id/editTextText183"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="STS "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editTextText184"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Strykinstrumente/Strings Senior : Duet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="45dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

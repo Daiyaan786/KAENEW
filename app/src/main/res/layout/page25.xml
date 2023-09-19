@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Meerstemmige Sang : Senior 	 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox41"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <EditText
+        android:id="@+id/editTextText111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SS"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editTextText114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="GETAL SANGERS		 		 "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextText115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/editTextText116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox42"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="404dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

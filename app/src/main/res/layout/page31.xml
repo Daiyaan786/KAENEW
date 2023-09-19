@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <EditText
+        android:id="@+id/editTextText148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Graad"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextText149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Mimiek (Groepe) JMM "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <EditText
+        android:id="@+id/editTextText150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Eksp. Program  JEP "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox53"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <EditText
+        android:id="@+id/editTextText151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editTextText152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Koorspraak  JKS "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <EditText
+        android:id="@+id/editTextText153"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox54"
+        android:layout_width="85dp"
+        android:layout_height="46dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <EditText
+        android:id="@+id/editTextText154"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groeplees  JVL "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="374dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Spraakkuns en Mimiek Junior Groepe 	 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="370dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="20dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Klassieke Kitaar : Duet "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <EditText
+        android:id="@+id/editTextText34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME "
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <EditText
+        android:id="@+id/editTextText35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="G	 "
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="344dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="525dp"
+        />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="313dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Junior Klavier : Solo		 Skoolgraad R - 5		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText48"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:background="@drawable/hamburger-menu-icon-png-white-10"
+        android:backgroundTint="#EDE8E8"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <EditText
+        android:id="@+id/editTextText49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool graad"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/editTextText50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Beginners KJ "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/editTextText51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B/K KJ "
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/editTextText52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="R/M KJ "
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/editTextText53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groepsolo's Recitals "
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/editTextText54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Unisa UN "
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="538dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

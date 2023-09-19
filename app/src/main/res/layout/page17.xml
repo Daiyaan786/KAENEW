@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="377dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="96dp"
+        android:layout_height="49dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="381dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Koperblaasinstrumente/Brass : Solo		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/editTextText84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/editTextText85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool Graad "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editTextText86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B/K KB "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextText87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="R/M KB "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editTextText88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Jazz KB "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/editTextText89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groepsolo's KB "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <EditText
+        android:id="@+id/editTextText90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Beginners "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="428dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

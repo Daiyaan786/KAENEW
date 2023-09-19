@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="88dp"
+        android:text="Blokfluit/Recorder Duet
+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="VANNE EN NAME	 	 "
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Skoolgraad		 "
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Blockfluit "
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face-to-Face"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

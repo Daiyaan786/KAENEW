@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Ensembles en Orkeste		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME	 	 "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only for Video submissions"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/editTextText17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SKOOL/SCHOOL 	 	 "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/editTextText18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Getal Spelers	 "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/editTextText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Klein Ens. 3-8 spelers OR  "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <EditText
+        android:id="@+id/editTextText20"
+        android:layout_width="221dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groot Ens. 9-20 spelers OR	 	 "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Orkes 21 of meer Spelers OR "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <EditText
+        android:id="@+id/editTextText22"
+        android:layout_width="260dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Jazz Orkes Enige getal  spelers "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="370dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="32dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="78dp"
+        android:layout_height="33dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="598dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

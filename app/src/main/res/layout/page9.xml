@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/KAE_Background1">
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="24dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Klassieke Kitaar : Solo		 "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/editTextText36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="VANNE EN NAME "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/editTextText37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skool graad "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editTextText38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B/K G "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/editTextText39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="R/M G "
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:id="@+id/editTextText40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Groepsolo's G "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:text="Face-To-Face"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="104dp"
+        android:layout_height="39dp"
+        android:text="Video"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="481dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
