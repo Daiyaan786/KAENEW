@@ -7,12 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.kae.R.id.button3
 import com.example.kae.R.id.buttonRegister
 import com.example.kae.R.layout.mainpage
+import com.example.kae.R.layout.register
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(mainpage)
+
 
         // Handle navigation to the login and registration activities here
         val loginButton = findViewById<View>(button3)

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.kae'
-    compileSdk 33
+    compileSdk 34
     compileSdkVersion 34
 
     defaultConfig {
