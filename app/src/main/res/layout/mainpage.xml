@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
@@ -10,63 +10,63 @@
         android:id="@+id/buttonLanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Language"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:text="Language"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/buttonLanguage"
-        android:layout_alignParentEnd="true"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="16dp"
-        android:text="About" />
+        android:text="About"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/buttonLanguage" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="380dp"
         android:layout_height="167dp"
-        android:layout_below="@id/buttonLanguage"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/kae_drawable" />
+        android:src="@drawable/kae_drawable"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonLanguage" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-1dp"
+        android:layout_marginTop="1dp"
         android:text="Kaapse Afrikaanse Eisteddfod"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="154dp"
-        android:layout_height="91dp"
-        android:layout_below="@id/textView"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="131dp"
-        android:text="Login" />
+        android:layout_width="180dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="128dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <Button
         android:id="@+id/buttonRegister"
-        android:layout_width="146dp"
-        android:layout_height="107dp"
-        android:layout_below="@id/button3"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="248dp"
-        android:text="Register" />
+        android:layout_width="177dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="8dp"
+        android:text="Register"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
