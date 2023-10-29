@@ -1,157 +1,175 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:background="@drawable/KAE_Background1">
-
-    <TextView
-        android:id="@+id/textViewBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back"
-        android:textSize="18sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:clickable="true"
-        android:focusable="true"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:padding="8dp" />
+    android:background="@drawable/kae_background1"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/textViewRegister"
-        android:layout_width="119dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="112dp"
         android:text="@string/register"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Email:"
-        android:layout_below="@id/textViewRegister"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRegister" />
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="376dp"
-        android:layout_height="30dp"
-        android:layout_below="@id/textViewEmail"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:inputType="textEmailAddress" />
+        android:inputType="@string/Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmail"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Password:"
-        android:layout_below="@id/editTextEmail"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail" />
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="376dp"
-        android:layout_height="28dp"
-        android:layout_below="@id/textViewPassword"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
-        android:inputType="textPassword" />
+        android:inputType="@string/PassWord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewPassword"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Name:"
-        android:layout_below="@id/editTextPassword"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="376dp"
-        android:layout_height="32dp"
-        android:layout_below="@id/textViewName"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
         android:layout_marginTop="8dp"
+        android:autofillHints=""
         android:inputType="textPersonName"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewName"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewSchool"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="School:"
-        android:layout_below="@id/editTextName"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextName" />
 
     <EditText
         android:id="@+id/editTextSchool"
-        android:layout_width="376dp"
-        android:layout_height="32dp"
-        android:layout_below="@id/textViewSchool"
+        android:layout_width="375dp"
+        android:layout_height="57dp"
         android:layout_marginTop="8dp"
-        android:inputType="text" />
+        android:inputType="@string/School"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSchool"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewSchoolContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="School Contact Number:"
-        android:layout_below="@id/editTextSchool"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextSchool" />
 
     <EditText
         android:id="@+id/editTextSchoolContact"
-        android:layout_width="376dp"
-        android:layout_height="32dp"
-        android:layout_below="@id/textViewSchoolContact"
+        android:layout_width="372dp"
+        android:layout_height="56dp"
         android:layout_marginTop="8dp"
-        android:inputType="phone" />
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSchoolContact"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textViewYourContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Your Contact Number:"
-        android:layout_below="@id/editTextSchoolContact"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextSchoolContact" />
 
     <EditText
         android:id="@+id/editTextYourContact"
-        android:layout_width="376dp"
-        android:layout_height="32dp"
-        android:layout_below="@id/textViewYourContact"
+        android:layout_width="375dp"
+        android:layout_height="44dp"
         android:layout_marginTop="8dp"
-        android:inputType="phone" />
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewYourContact"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textViewSchoolAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="School Address:"
-        android:layout_below="@id/editTextYourContact"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextYourContact" />
 
     <EditText
         android:id="@+id/editTextSchoolAddress"
-        android:layout_width="376dp"
-        android:layout_height="32dp"
-        android:layout_below="@id/textViewSchoolAddress"
+        android:layout_width="374dp"
+        android:layout_height="56dp"
         android:layout_marginTop="8dp"
-        android:inputType="textPostalAddress" />
+        android:inputType="text|textPostalAddress|textNoSuggestions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSchoolAddress"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="207dp"
         android:layout_height="97dp"
-        android:layout_below="@+id/editTextSchoolAddress"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="99dp"
-        android:layout_marginBottom="192dp"
-        android:text="Register" />
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="28dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

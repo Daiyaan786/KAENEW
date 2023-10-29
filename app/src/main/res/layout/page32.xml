@@ -4,107 +4,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="18dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="297dp"
-        tools:layout_editor_absoluteY="626dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
 
     <EditText
         android:id="@+id/editTextText155"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="86dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
 
     <EditText
         android:id="@+id/editTextText156"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Mond. Komm MK "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText159" />
 
     <EditText
         android:id="@+id/editTextText157"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Monoloog MO "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="356dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText166" />
 
     <CheckBox
         android:id="@+id/checkBox55"
         android:layout_width="133dp"
         android:layout_height="51dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="623dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
 
     <EditText
         android:id="@+id/editTextText159"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="17dp"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa EP "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText163" />
 
     <EditText
         android:id="@+id/editTextText160"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Letter. GE/PE "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText165" />
 
     <EditText
         android:id="@+id/editTextText161"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText155" />
 
     <EditText
         android:id="@+id/editTextText163"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
         android:ems="10"
         android:inputType="text"
         android:text="Gedig EG "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="176dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText161" />
 
     <TextView
         android:id="@+id/textView62"
         android:layout_width="377dp"
         android:layout_height="35dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="574dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText160" />
 
     <ScrollView
         android:layout_width="45dp"
         android:layout_height="476dp"
-        tools:layout_editor_absoluteX="364dp"
-        tools:layout_editor_absoluteY="86dp">
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -116,39 +134,44 @@
         android:id="@+id/checkBox56"
         android:layout_width="84dp"
         android:layout_height="48dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="7dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="626dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox55"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
 
     <EditText
         android:id="@+id/editTextText165"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa GP "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="401dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText157" />
 
     <EditText
         android:id="@+id/editTextText166"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="207dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Lees OL "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="311dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText156" />
 
     <TextView
         android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:text="Spraakkuns Senior"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,11 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/app_bar_search"
-        android:icon="@drawable/ic_search_black_24dp"
+        android:icon="@android:drawable/ic_menu_search"
         android:title="Search"
         app:actionViewClass="android.widget.SearchView" />
     <item android:title="User Profile" />
-    <item android:title="Entries" />
+    <item
+        android:id="@+id/entries"
+        android:title="Entries" />
+
     <item android:title="Video Entries" />
     <group />
 

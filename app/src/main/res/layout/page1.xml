@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <TextView
         android:id="@+id/textView2"
@@ -12,78 +12,98 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginEnd="88dp"
+        android:layout_marginBottom="32dp"
         android:text="Blokfluit/Recorder Duet
 "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:text="VANNE EN NAME	 	 "
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="102dp" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:text="Skoolgraad		 "
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="150dp" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:text="Blockfluit "
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="198dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Face-to-Face"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="352dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="89dp"
-        android:layout_height="34dp"
-        android:text="Video"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="352dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="390dp"
-        android:layout_height="35dp"
-        android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="316dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="336dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="VANNE EN NAME	 	 "
+        app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Blockfluit "
+        android:textColor="#FF80AB"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="388dp"
+        android:text="Face-to-Face"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Skoolgraad		 "
+        android:textColor="#FF4081"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="141dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="388dp"
+        android:text="Video"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        android:textColor="#FF80AB"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

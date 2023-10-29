@@ -4,89 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="96dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="19dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox49"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
 
     <TextView
         android:id="@+id/textView54"
         android:layout_width="377dp"
         android:layout_height="35dp"
+        android:layout_marginStart="16dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText139" />
 
     <EditText
         android:id="@+id/editTextText138"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Skool"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText140" />
 
     <EditText
         android:id="@+id/editTextText139"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="KOORSPRAAK  AK "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="274dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText141" />
 
     <CheckBox
         android:id="@+id/checkBox49"
         android:layout_width="87dp"
-        android:layout_height="48dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox50"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
 
     <EditText
         android:id="@+id/editTextText140"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="203dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
 
     <CheckBox
         android:id="@+id/checkBox50"
-        android:layout_width="133dp"
-        android:layout_height="51dp"
+        android:layout_width="137dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
 
     <EditText
         android:id="@+id/editTextText141"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="207dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText138" />
 
     <TextView
         android:id="@+id/textView53"
-        android:layout_width="315dp"
-        android:layout_height="50dp"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="22dp"
         android:layout_marginEnd="32dp"
         android:text="Spraakkuns Addisionele Taal		 Junior - Groepe		 "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="22dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

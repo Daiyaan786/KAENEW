@@ -4,100 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="26dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="515dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="370dp"
         android:layout_height="39dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="24dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="464dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText33" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="296dp"
         android:layout_height="65dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="49dp"
         android:layout_marginEnd="32dp"
         android:text="Houtblaasinstrumente: Solo		             Woodwinds : Solo	 "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="49dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="215dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="149dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <EditText
         android:id="@+id/editTextText30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="216dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="3dp"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad "
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText29" />
 
     <EditText
         android:id="@+id/editTextText31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="216dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="text"
         android:text="B/K HB "
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText30" />
 
     <EditText
         android:id="@+id/editTextText32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="27dp"
         android:ems="10"
         android:inputType="text"
         android:text="R/M HB "
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText31" />
 
     <EditText
         android:id="@+id/editTextText33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
         android:ems="10"
         android:inputType="text"
         android:text="Groepsolo's HB "
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText32" />
 
     <CheckBox
         android:id="@+id/checkBox13"
-        android:layout_width="126dp"
-        android:layout_height="39dp"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="18dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="526dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <CheckBox
         android:id="@+id/checkBox14"
-        android:layout_width="95dp"
-        android:layout_height="36dp"
+        android:layout_width="102dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="5dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="527dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox13"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 </androidx.constraintlayout.widget.ConstraintLayout>

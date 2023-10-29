@@ -4,119 +4,133 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="538dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
 
     <CheckBox
         android:id="@+id/checkBox51"
         android:layout_width="90dp"
         android:layout_height="48dp"
+        android:layout_marginStart="22dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="538dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox52"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
 
     <EditText
         android:id="@+id/editTextText137"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="22dp"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa JVP "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="274dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText144" />
 
     <EditText
         android:id="@+id/editTextText142"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="216dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="3dp"
         android:ems="10"
         android:inputType="text"
         android:text="Mimiek-Solo JMM "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="428dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText147" />
 
     <EditText
         android:id="@+id/editTextText143"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="23dp"
         android:ems="10"
         android:inputType="text"
         android:text="Mond. Komm MK "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText137" />
 
     <EditText
         android:id="@+id/editTextText144"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="23dp"
         android:ems="10"
         android:inputType="text"
         android:text="Gedig JVG "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText146" />
 
     <EditText
         android:id="@+id/editTextText145"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="65dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
 
     <EditText
         android:id="@+id/editTextText146"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="22dp"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText145" />
 
     <EditText
         android:id="@+id/editTextText147"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="214dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="23dp"
         android:ems="10"
         android:inputType="text"
         android:text="Lees JOL "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="379dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText143" />
 
     <TextView
         android:id="@+id/textView57"
         android:layout_width="377dp"
         android:layout_height="35dp"
+        android:layout_marginStart="21dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText142" />
 
     <CheckBox
         android:id="@+id/checkBox52"
         android:layout_width="133dp"
         android:layout_height="51dp"
+        android:layout_marginStart="21dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="535dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
 
     <TextView
         android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:text="Spraakkuns en Mimiek Junior "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="36dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,95 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox58"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
 
     <EditText
         android:id="@+id/editTextText158"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="86dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
 
     <CheckBox
         android:id="@+id/checkBox57"
         android:layout_width="139dp"
         android:layout_height="54dp"
+        android:layout_marginStart="18dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="562dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
 
     <EditText
         android:id="@+id/editTextText162"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="14dp"
         android:ems="10"
         android:inputType="text"
         android:text="Groepsolo's STJ "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="356dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText167" />
 
     <CheckBox
         android:id="@+id/checkBox58"
         android:layout_width="86dp"
         android:layout_height="54dp"
+        android:layout_marginStart="40dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="562dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox57"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
 
     <TextView
         android:id="@+id/textView64"
         android:layout_width="377dp"
         android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="494dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText168" />
 
     <EditText
         android:id="@+id/editTextText167"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="13dp"
         android:ems="10"
         android:inputType="text"
         android:text="R/M STJ "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="311dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText172" />
 
     <EditText
         android:id="@+id/editTextText168"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Concerto STJ "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="401dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText162" />
 
     <EditText
         android:id="@+id/editTextText169"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="13dp"
         android:ems="10"
         android:inputType="text"
         android:text="Instrument "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="176dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText170" />
 
     <ScrollView
         android:layout_width="45dp"
         android:layout_height="476dp"
-        tools:layout_editor_absoluteX="364dp"
-        tools:layout_editor_absoluteY="86dp">
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -102,43 +117,47 @@
 
     <EditText
         android:id="@+id/editTextText170"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="11dp"
         android:ems="10"
         android:inputType="text"
         android:text="Skool Graad"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText158" />
 
     <EditText
         android:id="@+id/editTextText171"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="13dp"
         android:ems="10"
         android:inputType="text"
         android:text="Beg. STJ "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText169" />
 
     <EditText
         android:id="@+id/editTextText172"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="14dp"
         android:ems="10"
         android:inputType="text"
         android:text="B/K STJ "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText171" />
 
     <TextView
         android:id="@+id/textView63"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="43dp"
         android:layout_marginEnd="32dp"
         android:text="Strykinstrumente Junior : Solo	"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="43dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,141 +4,164 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/KAE_Background1">
+    android:background="@drawable/kae_background1">
 
     <Button
         android:id="@+id/button24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="88dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="622dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="390dp"
         android:layout_height="35dp"
+        android:layout_marginStart="10dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="582dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText16" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
         android:layout_marginEnd="32dp"
         android:text="Blokfluit/Recorder : Solo		 "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME	 	 "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="107dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
         android:id="@+id/editTextText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="3dp"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad  "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="152dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
 
     <EditText
         android:id="@+id/editTextText9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="214dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="9dp"
         android:ems="10"
         android:inputType="text"
         android:text="VB/B C B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
 
     <EditText
         android:id="@+id/editTextText10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="9dp"
         android:ems="10"
         android:inputType="text"
         android:text="NB C B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText9" />
 
     <EditText
         android:id="@+id/editTextText11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="9dp"
         android:ems="10"
         android:inputType="text"
         android:text="Onb C B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="300dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText10" />
 
     <EditText
         android:id="@+id/editTextText12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="1dp"
         android:ems="10"
         android:inputType="text"
         android:text="VB/B F B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText11" />
 
     <EditText
         android:id="@+id/editTextText13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="9dp"
         android:ems="10"
         android:inputType="text"
         android:text="NB F B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText12" />
 
     <EditText
         android:id="@+id/editTextText14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
         android:ems="10"
         android:inputType="text"
         android:text="Onb F B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="435dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText13" />
 
     <EditText
         android:id="@+id/editTextText15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
         android:ems="10"
         android:inputType="text"
         android:text="Son  B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="480dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText14" />
 
     <EditText
         android:id="@+id/editTextText16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
         android:ems="10"
         android:inputType="text"
         android:text="Conc  B "
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="525dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText15" />
 
     <ScrollView
         android:layout_width="58dp"
         android:layout_height="463dp"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="83dp">
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -148,17 +171,21 @@
 
     <CheckBox
         android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="124dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="9dp"
         android:text="Face-To-Face"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="638dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <CheckBox
         android:id="@+id/checkBox4"
-        android:layout_width="80dp"
-        android:layout_height="32dp"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
         android:text="Video"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="638dp" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
