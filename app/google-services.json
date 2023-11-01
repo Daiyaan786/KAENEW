@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "565235224501",
+    "firebase_url": "https://kaemobile-68b15-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kaemobile-68b15",
+    "storage_bucket": "kaemobile-68b15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565235224501:android:ce3385ed6b96d147d713fc",
+        "android_client_info": {
+          "package_name": "com.example.kae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Kf_cPKv1thTRCrL5kvFQj8uQu3vHGx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
