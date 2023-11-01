@@ -6,7 +6,9 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kae.R.id.button3
 import com.example.kae.R.id.buttonRegister
+import com.example.kae.R.layout.burgermenu
 import com.example.kae.R.layout.mainpage
+import com.example.kae.R.layout.page13
 import com.example.kae.R.layout.register
 
 class MainActivity : AppCompatActivity() {
@@ -17,10 +19,10 @@ class MainActivity : AppCompatActivity() {
 
 
         // Handle navigation to the login and registration activities here
-        val loginButton = findViewById<View>(button3)
-        val registerButton = findViewById<View>(buttonRegister)
+        //     val loginButton = findViewById<View>(button3)
+        //val registerButton = findViewById<View>(buttonRegister)
 
-        loginButton.setOnClickListener {
+        /*     loginButton.setOnClickListener {
             val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
         }
@@ -29,5 +31,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, RegisterActivity::class.java)
             startActivity(intent)
         }
+    */
     }
 }
