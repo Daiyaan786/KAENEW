@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.content.Intent
+import android.view.View
+import com.example.kae.R.id.btnLoginBackBtn
+import android.content.Context
+import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
 
@@ -20,26 +24,35 @@ class LoginActivity : AppCompatActivity() {
         passwordEditText = findViewById(R.id.editTextPassword)
         loginButton = findViewById(R.id.buttonLogin)
 
+        val backButton = findViewById<View>(R.id.btnLoginBackBtn)
+//BACK BUTTON TO MAINACTIVITY
+//
+        backButton.setOnClickListener {
+            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+            startActivity(intent) }
+//LOGIN BUTTON
+//
         loginButton.setOnClickListener {
-            // Implement your login logic here
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
 
-            // Perform authentication, and if successful, navigate to another activity.
-            // For example:
-            // if (isValidUser(email, password)) {
-            //     val intent = Intent(this, HomeActivity::class.java)
-            //     startActivity(intent)
-            // } else {
-            //     // Show an error message to the user
-            // }
+            // LOGIN AUTHENTICATION CHECK
+             if (isValidUser(email, password)) {
+                 val intent = Intent(this, Burgermenu::class.java)
+                 startActivity(intent)
+             } else {
+                 showMessage(this, "Incorrect Details.") // error message
+             }
         }
     }
 
-    // You can define your login validation logic here.
-    // For example:
-    // private fun isValidUser(email: String, password: String): Boolean {
-    //     // Implement your authentication logic here
-    //     return true // Return true if authentication is successful
-    // }
+//ShowMessage Function
+    private fun showMessage(context: Context, message: String) {
+        Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+    }
+// Authentication Logic
+    private fun isValidUser(email: String, password: String): Boolean {
+         // Authentication
+        return email == "admin" && password == "admin123"
+     }
 }

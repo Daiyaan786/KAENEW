@@ -9,8 +9,8 @@ import com.google.firebase.database.FirebaseDatabase
 
 class Page1: AppCompatActivity() {
     // Define a reference to the database
-    private val database: FirebaseDatabase = FirebaseDatabase.getInstance("https://kaemobile-68b15-default-rtdb.europe-west1.firebasedatabase.app/")
-    private val reference: DatabaseReference = database.getReference("your_data_path")
+    private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
+    private val reference: DatabaseReference = database.getReference()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.page1)
@@ -18,7 +18,7 @@ class Page1: AppCompatActivity() {
         //
         val button: Button = findViewById(R.id.button)
 
-        // Set an OnClickListener for the button
+// Set an OnClickListener for the button
         button.setOnClickListener {
             submitDataToFirebase()
         }

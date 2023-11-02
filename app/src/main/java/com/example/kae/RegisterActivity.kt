@@ -1,9 +1,12 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
+import com.example.kae.R.id.btnRegisterBackBtn
 
 
 class RegisterActivity : AppCompatActivity() {
@@ -20,10 +23,20 @@ class RegisterActivity : AppCompatActivity() {
         passwordEditText = findViewById(R.id.editTextPassword)
         registerButton = findViewById(R.id.buttonRegister)
 
-        registerButton.setOnClickListener {
+        val backButton = findViewById<View>(R.id.btnRegisterBackBtn)
+//BACK BUTTON TO MAINACTIVITY
+        backButton.setOnClickListener {
+            val intent = Intent(this@RegisterActivity, MainActivity::class.java)
+            startActivity(intent) }
+
+        // ******************
+        // TO BE IMPLEMENTED
+        // ******************
+
+       // registerButton.setOnClickListener {
             // Implement your registration logic here
-            val email = emailEditText.text.toString()
-            val password = passwordEditText.text.toString()
+          //  val email = emailEditText.text.toString()
+        //    val password = passwordEditText.text.toString()
 
             // Perform user registration, and if successful, navigate to another activity.
             // For example:
@@ -33,7 +46,7 @@ class RegisterActivity : AppCompatActivity() {
             // } else {
             //     // Show an error message to the user
             // }
-        }
+       // }
     }
 
     // You can define your registration logic here.
