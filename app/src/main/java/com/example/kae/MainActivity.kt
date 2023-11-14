@@ -2,14 +2,9 @@ package com.example.kae
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.kae.R.id.button3
-import com.example.kae.R.id.buttonRegister
-import com.example.kae.R.layout.burgermenu
 import com.example.kae.R.layout.mainpage
-import com.example.kae.R.layout.page13
-import com.example.kae.R.layout.register
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,20 +12,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(mainpage)
 
+        val buttonLanguage = findViewById<Button>(R.id.buttonLanguage)
+        val buttonAbout = findViewById<Button>(R.id.buttonAbout)
+        val button3 = findViewById<Button>(R.id.button3)
+        val buttonRegister = findViewById<Button>(R.id.buttonRegister)
 
-        // Handle navigation to the login and registration activities here
-        //     val loginButton = findViewById<View>(button3)
-        //val registerButton = findViewById<View>(buttonRegister)
-
-        /*     loginButton.setOnClickListener {
-            val intent = Intent(this@MainActivity, LoginActivity::class.java)
-            startActivity(intent)
+        buttonLanguage.setOnClickListener {
+            // Handle the Language button click here
         }
 
-        registerButton.setOnClickListener {
-            val intent = Intent(this@MainActivity, RegisterActivity::class.java)
-            startActivity(intent)
+        buttonAbout.setOnClickListener {
+            // Handle the About button click here
+            val aboutIntent = Intent(this, About::class.java)
+            startActivity(aboutIntent)
         }
-    */
+
+        button3.setOnClickListener {
+            // Handle the Login button click here
+            val burgerMenuIntent = Intent(this, Burgermenu::class.java)
+            startActivity(burgerMenuIntent)
+        }
+
+        buttonRegister.setOnClickListener {
+            // Handle the Register button click here
+            val registerIntent = Intent(this, RegisterActivity::class.java)
+            startActivity(registerIntent)
+        }
     }
 }
+
+

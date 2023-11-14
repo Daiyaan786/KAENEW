@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
@@ -23,6 +24,187 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="Page1"
+            android:exported="true" />
+
+        <activity
+            android:name="Page2"
+            android:exported="true" />
+
+        <activity
+            android:name="Page3"
+            android:exported="true" />
+
+        <activity
+            android:name="Page4"
+            android:exported="true" />
+
+        <activity
+            android:name="Page5"
+            android:exported="true" />
+
+        <activity
+            android:name="Page6"
+            android:exported="true" />
+
+        <activity
+            android:name="Page7"
+            android:exported="true" />
+
+        <activity
+            android:name="Page8"
+            android:exported="true" />
+
+        <activity
+            android:name="Page9"
+            android:exported="true" />
+
+        <activity
+            android:name="Page10"
+            android:exported="true" />
+
+        <activity
+            android:name="Page11"
+            android:exported="true" />
+
+        <activity
+            android:name="Page12"
+            android:exported="true" />
+
+        <activity
+            android:name="Page13"
+            android:exported="true" />
+
+        <activity
+            android:name="Page14"
+            android:exported="true" />
+
+        <activity
+            android:name="Page15"
+            android:exported="true" />
+
+        <activity
+            android:name="Page16"
+            android:exported="true" />
+
+        <activity
+            android:name="Page17"
+            android:exported="true" />
+
+        <activity
+            android:name="Page18"
+            android:exported="true" />
+
+        <activity
+            android:name="Page19"
+            android:exported="true" />
+
+        <activity
+            android:name="Page20"
+            android:exported="true" />
+
+        <activity
+            android:name="Page21"
+            android:exported="true" />
+
+        <activity
+            android:name="Page22"
+            android:exported="true" />
+
+        <activity
+            android:name="Page23"
+            android:exported="true" />
+
+        <activity
+            android:name="Page24"
+            android:exported="true" />
+
+        <activity
+            android:name="Page25"
+            android:exported="true" />
+
+        <activity
+            android:name="Page26"
+            android:exported="true" />
+
+        <activity
+            android:name="Page27"
+            android:exported="true" />
+
+        <activity
+            android:name="Page28"
+            android:exported="true" />
+
+        <activity
+            android:name="Page29"
+            android:exported="true" />
+
+        <activity
+            android:name="Page30"
+            android:exported="true" />
+
+        <activity
+            android:name="Page31"
+            android:exported="true" />
+
+        <activity
+            android:name="Page32"
+            android:exported="true" />
+
+        <activity
+            android:name="Page33"
+            android:exported="true" />
+
+        <activity
+            android:name="Page34"
+            android:exported="true" />
+
+        <activity
+            android:name="Page35"
+            android:exported="true" />
+
+        <activity
+            android:name="Page36"
+            android:exported="true" />
+
+        <activity
+            android:name="Page37"
+            android:exported="true" />
+
+        <activity
+            android:name="Page38"
+            android:exported="true" />
+
+        <activity
+            android:name="Burgermenu"
+            android:exported="true" />
+
+        <activity
+            android:name="About"
+            android:exported="true" />
+        <activity
+            android:name="EntryForm"
+            android:exported="true" />
+
+        <activity
+            android:name="LoginActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="RegisterActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="UserProfile"
+            android:exported="true" />
+
+        <activity
+            android:name="VideoEntries"
+            android:exported="true" />
+
+
+
     </application>
 
 </manifest>
