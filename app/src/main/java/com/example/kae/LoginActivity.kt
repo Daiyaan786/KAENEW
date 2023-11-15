@@ -1,10 +1,10 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
-import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -25,6 +25,11 @@ class LoginActivity : AppCompatActivity() {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
 
+            loginButton.setOnClickListener {
+                // Handle the Login button click here
+                val burgermenuIntent = Intent(this, EntryForm::class.java)
+                startActivity(burgermenuIntent)
+            }
             // Perform authentication, and if successful, navigate to another activity.
             // For example:
             // if (isValidUser(email, password)) {

@@ -1,9 +1,10 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
 
 class RegisterActivity : AppCompatActivity() {
@@ -25,6 +26,11 @@ class RegisterActivity : AppCompatActivity() {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
 
+            registerButton.setOnClickListener {
+                // Handle the Login button click here
+                val loginIntent = Intent(this, Burgermenu::class.java)
+                startActivity(loginIntent)
+
             // Perform user registration, and if successful, navigate to another activity.
             // For example:
             // if (registerUser(email, password)) {
@@ -42,4 +48,4 @@ class RegisterActivity : AppCompatActivity() {
     //     // Implement your user registration logic here
     //     return true // Return true if registration is successful
     // }
-}
+}}

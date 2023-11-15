@@ -2,6 +2,8 @@ package com.example.kae
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -43,6 +45,22 @@ class EntryForm : AppCompatActivity() {
                 // Handle when nothing is selected (if needed)
             }
         }
+    }
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.burgermenu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.user_profile -> startActivity(Intent(this, UserProfile::class.java))
+            R.id.entries -> startActivity(Intent(this, EntryForm::class.java))
+            R.id.video_entries -> startActivity(Intent(this, VideoEntries::class.java))
+            // Add more cases for other menu items if needed
+
+            else -> return super.onOptionsItemSelected(item)
+        }
+        return true
     }
 
     private fun navigateToPage(pageName: String) {

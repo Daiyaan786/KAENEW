@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
 
         button3.setOnClickListener {
             // Handle the Login button click here
-            val burgerMenuIntent = Intent(this, Burgermenu::class.java)
-            startActivity(burgerMenuIntent)
+            val loginActivityIntent = Intent(this, LoginActivity::class.java)
+            startActivity(loginActivityIntent)
         }
 
         buttonRegister.setOnClickListener {
