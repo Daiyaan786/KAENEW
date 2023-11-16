@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/kae_background1"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/kae_background1">
@@ -12,11 +17,11 @@
         android:layout_height="64dp"
         android:layout_marginStart="26dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="4dp"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toEndOf="@+id/checkBox20" />
 
     <TextView
@@ -26,7 +31,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="5dp"
+        android:layout_marginBottom="70dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,11 +153,11 @@
 
     <CheckBox
         android:id="@+id/checkBox19"
-        android:layout_width="142dp"
-        android:layout_height="54dp"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
         android:layout_marginStart="37dp"
         android:layout_marginEnd="14dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="4dp"
         android:text="Face-To-Face"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/checkBox20"
@@ -158,11 +165,12 @@
 
     <CheckBox
         android:id="@+id/checkBox20"
-        android:layout_width="118dp"
-        android:layout_height="59dp"
+        android:layout_width="102dp"
+        android:layout_height="57dp"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="4dp"
         android:text="Video"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox19" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

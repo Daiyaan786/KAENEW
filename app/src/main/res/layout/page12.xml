@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/kae_background1"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/kae_background1" >
@@ -31,11 +36,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
         android:text="Klavier Duet : Senior		 "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,8 +49,8 @@
         android:id="@+id/editTextText55"
         android:layout_width="243dp"
         android:layout_height="67dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -79,8 +85,7 @@
         android:id="@+id/checkBox23"
         android:layout_width="119dp"
         android:layout_height="51dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginBottom="425dp"
+        android:layout_marginStart="35dp"
         android:text="Face-To-Face"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -89,9 +94,9 @@
         android:id="@+id/checkBox24"
         android:layout_width="102dp"
         android:layout_height="49dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginBottom="427dp"
+        android:layout_marginStart="76dp"
         android:text="Video"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox23" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

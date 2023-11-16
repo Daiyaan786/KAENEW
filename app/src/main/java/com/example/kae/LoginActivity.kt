@@ -39,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
 
             // LOGIN AUTHENTICATION CHECK
              if (isValidUser(email, password)) {
-                 val intent = Intent(this, Burgermenu::class.java)
+                 val intent = Intent(this, EntryForm::class.java)
                  startActivity(intent)
              } else {
                  showMessage(this, "Incorrect Details.") // error message

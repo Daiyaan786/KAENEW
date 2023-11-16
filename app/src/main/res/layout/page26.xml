@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/kae_background1"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/kae_background1">
@@ -20,11 +25,11 @@
         android:id="@+id/checkBox44"
         android:layout_width="133dp"
         android:layout_height="51dp"
-        android:layout_marginTop="119dp"
-        android:layout_marginEnd="68dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="32dp"
         android:text="Face-To-Face"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollbar" />
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
 
     <TextView
         android:id="@+id/textView50"
@@ -40,8 +45,8 @@
         android:id="@+id/checkBox43"
         android:layout_width="89dp"
         android:layout_height="49dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
         android:text="Video"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox44" />
@@ -183,22 +188,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ScrollView
-        android:id="@+id/scrollbar"
-        android:layout_width="45dp"
-        android:layout_height="476dp"
-        android:layout_marginTop="86dp"
-        android:layout_marginEnd="62dp"
-        android:contentDescription="@string/app_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
     <EditText
         android:id="@+id/editTextText126"
         android:layout_width="220dp"
@@ -210,3 +199,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText113" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
