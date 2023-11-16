@@ -13,7 +13,7 @@ class Page7 : AppCompatActivity() {
 
     // Define a reference to the database
     private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
-    // Unused, a root *node* reference
+    // a root *node* reference
     private val reference: DatabaseReference = database.getReference()
 
     private lateinit var vanneNameEditText: EditText
