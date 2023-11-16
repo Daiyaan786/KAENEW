@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnMainPageLoginBtn"
         android:layout_width="180dp"
         android:layout_height="82dp"
         android:layout_marginTop="7dp"
@@ -67,6 +67,6 @@
         android:layout_marginTop="8dp"
         android:text="Register"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button3" />
+        app:layout_constraintTop_toBottomOf="@id/btnMainPageLoginBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

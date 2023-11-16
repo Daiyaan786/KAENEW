@@ -10,13 +10,14 @@
     <TextView
         android:id="@+id/aboutText"
         android:layout_width="234dp"
-        android:layout_height="175dp"
+        android:layout_height="490dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="141dp"
-        android:text="This is the About page.\n\nYour content goes here."
-        android:textSize="18sp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="36dp"
+        android:text="Die Kaapse Afrikaanse Eisteddfod is die oudste Afrikaanse eisteddfod in Suid-Afrika en is die eerste keer in 1927 aangebied.\n\nDie Kaapse Afrikaanse Eisteddfod bied 'n platform vir leerders om hul kreatiwiteit te ontwikkel en hul talente te wys aan 'n breër gehoor.\n\nDie eisteddfod sluit kategorieë in soos koor, orkes, solo-sang, voordrag, toneel, poësie, prosa en beeldende kuns."
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView75" />
 
@@ -26,13 +27,14 @@
         android:layout_height="38dp"
         android:layout_marginStart="43dp"
         android:layout_marginTop="131dp"
+        android:textStyle="bold"
         android:text="ABOUT"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button40"
+        android:id="@+id/btnAboutBackBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
