@@ -2,17 +2,14 @@ package com.example.kae
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.kae.R.id.btnMainPageLoginBtn
 import com.example.kae.R.id.btnMainPageLoginBtn
 import com.example.kae.R.id.buttonAbout
 import com.example.kae.R.id.buttonRegister
 import com.example.kae.R.layout.burgermenu
 import com.example.kae.R.layout.mainpage
-import com.example.kae.R.layout.page1
-import com.example.kae.R.layout.page13
-import com.example.kae.R.layout.register
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,3 +37,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent) }
     }
 }
+
+
