@@ -11,26 +11,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/kae_background1" >
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="424dp"
-        android:text="Submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="390dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="28dp"
-        android:text="Tick one box if student is submiting a video or atending face to face"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox23"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
@@ -50,53 +30,83 @@
         android:layout_width="243dp"
         android:layout_height="67dp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="23dp"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
         app:layout_constraintBottom_toTopOf="@+id/editTextText56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="102dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:text="Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox23" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Tick one box if student is submiting a video or atending face to face"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox23"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextText56"
-        android:layout_width="240dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="9dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Skoolgrade		 "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText57"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_input_background"
+        android:backgroundTint="@color/redd"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBox24" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="119dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:text="Face-To-Face"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextText57"
         android:layout_width="237dp"
         android:layout_height="70dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="44dp"
         android:ems="10"
         android:inputType="text"
         android:text="K"
         app:layout_constraintBottom_toTopOf="@+id/textView26"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <CheckBox
-        android:id="@+id/checkBox23"
-        android:layout_width="119dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="35dp"
-        android:text="Face-To-Face"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/editTextText56"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Skoolgrade		 "
+        app:layout_constraintBottom_toTopOf="@+id/editTextText57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText55" />
 
-    <CheckBox
-        android:id="@+id/checkBox24"
-        android:layout_width="102dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="76dp"
-        android:text="Video"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox23" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

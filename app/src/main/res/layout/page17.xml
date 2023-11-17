@@ -10,41 +10,51 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/rounded_input_background"
+        android:backgroundTint="@color/redd"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="377dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginBottom="13dp"
         android:text="Tick one box if student is submiting a video or atending face to face"
         app:layout_constraintBottom_toTopOf="@+id/checkBox36"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText90" />
 
     <CheckBox
         android:id="@+id/checkBox36"
         android:layout_width="133dp"
         android:layout_height="51dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="305dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="144dp"
         android:text="Face-To-Face"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <CheckBox
         android:id="@+id/checkBox35"
         android:layout_width="96dp"
         android:layout_height="49dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="144dp"
         android:text="Video"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox36" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox36"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <TextView
         android:id="@+id/textView37"

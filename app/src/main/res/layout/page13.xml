@@ -156,6 +156,8 @@
         android:layout_height="64dp"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="4dp"
+        android:background="@drawable/rounded_input_background"
+        android:backgroundTint="@color/redd"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox26" />

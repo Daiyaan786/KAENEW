@@ -33,6 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="316dp"
+        android:background="@drawable/rounded_input_background"
+        android:backgroundTint="@color/redd"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -61,7 +63,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:text="Blockfluit "
-        android:textColor="#FF80AB"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -86,7 +88,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:text="Skoolgraad		 "
-        android:textColor="#FF4081"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/editTextText3"
         app:layout_constraintStart_toStartOf="parent" />
 
