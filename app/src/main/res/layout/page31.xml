@@ -19,9 +19,10 @@
 
     <EditText
         android:id="@+id/editTextText148"
-        android:layout_width="207dp"
-        android:layout_height="63dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="22dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"
@@ -30,9 +31,10 @@
 
     <EditText
         android:id="@+id/editTextText149"
-        android:layout_width="211dp"
-        android:layout_height="60dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="19dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Mimiek (Groepe) JMM "
@@ -41,9 +43,10 @@
 
     <EditText
         android:id="@+id/editTextText150"
-        android:layout_width="214dp"
-        android:layout_height="55dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Eksp. Program  JEP "
@@ -71,9 +74,10 @@
 
     <EditText
         android:id="@+id/editTextText151"
-        android:layout_width="208dp"
-        android:layout_height="62dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skool"
@@ -82,9 +86,10 @@
 
     <EditText
         android:id="@+id/editTextText152"
-        android:layout_width="212dp"
-        android:layout_height="59dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Koorspraak  JKS "
@@ -94,9 +99,10 @@
     <EditText
         android:id="@+id/editTextText153"
         android:layout_width="210dp"
-        android:layout_height="61dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="46dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -115,9 +121,10 @@
 
     <EditText
         android:id="@+id/editTextText154"
-        android:layout_width="208dp"
-        android:layout_height="61dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Groeplees  JVL "

@@ -31,9 +31,10 @@
     <EditText
         android:id="@+id/editTextText127"
         android:layout_width="224dp"
-        android:layout_height="56dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="2dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa AP "
@@ -42,10 +43,11 @@
 
     <EditText
         android:id="@+id/editTextText129"
-        android:layout_width="223dp"
-        android:layout_height="51dp"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="7dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Lees AL "
@@ -54,10 +56,11 @@
 
     <EditText
         android:id="@+id/editTextText130"
-        android:layout_width="223dp"
-        android:layout_height="57dp"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Gedig AG "
@@ -66,10 +69,11 @@
 
     <EditText
         android:id="@+id/editTextText131"
-        android:layout_width="219dp"
+        android:layout_width="224dp"
         android:layout_height="64dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="31dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -79,8 +83,9 @@
     <EditText
         android:id="@+id/editTextText132"
         android:layout_width="224dp"
-        android:layout_height="56dp"
+        android:layout_height="64dp"
         android:layout_marginStart="20dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"

@@ -26,9 +26,10 @@
     <EditText
         android:id="@+id/editTextText155"
         android:layout_width="213dp"
-        android:layout_height="57dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -37,9 +38,10 @@
 
     <EditText
         android:id="@+id/editTextText156"
-        android:layout_width="208dp"
-        android:layout_height="63dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Mond. Komm MK "
@@ -48,9 +50,10 @@
 
     <EditText
         android:id="@+id/editTextText157"
-        android:layout_width="208dp"
-        android:layout_height="61dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Monoloog MO "
@@ -69,9 +72,10 @@
 
     <EditText
         android:id="@+id/editTextText159"
-        android:layout_width="206dp"
-        android:layout_height="63dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="17dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa EP "
@@ -80,9 +84,10 @@
 
     <EditText
         android:id="@+id/editTextText160"
-        android:layout_width="210dp"
-        android:layout_height="57dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Letter. GE/PE "
@@ -92,8 +97,9 @@
     <EditText
         android:id="@+id/editTextText161"
         android:layout_width="213dp"
-        android:layout_height="66dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Graad"
@@ -103,9 +109,10 @@
     <EditText
         android:id="@+id/editTextText163"
         android:layout_width="213dp"
-        android:layout_height="62dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Gedig EG "
@@ -134,9 +141,10 @@
 
     <EditText
         android:id="@+id/editTextText165"
-        android:layout_width="210dp"
-        android:layout_height="60dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa GP "
@@ -145,14 +153,15 @@
 
     <EditText
         android:id="@+id/editTextText166"
-        android:layout_width="207dp"
-        android:layout_height="66dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Lees OL "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText156" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText156"
+        android:background="@drawable/rounded_input_background" />
 
     <TextView
         android:id="@+id/textView61"

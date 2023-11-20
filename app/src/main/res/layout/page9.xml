@@ -44,10 +44,11 @@
 
     <EditText
         android:id="@+id/editTextText36"
-        android:layout_width="210dp"
-        android:layout_height="74dp"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME "
@@ -56,9 +57,10 @@
 
     <EditText
         android:id="@+id/editTextText37"
-        android:layout_width="216dp"
-        android:layout_height="66dp"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
         android:layout_marginStart="23dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad "
@@ -67,9 +69,10 @@
 
     <EditText
         android:id="@+id/editTextText38"
-        android:layout_width="214dp"
-        android:layout_height="74dp"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
         android:layout_marginStart="23dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="B/K G "
@@ -78,10 +81,11 @@
 
     <EditText
         android:id="@+id/editTextText39"
-        android:layout_width="214dp"
-        android:layout_height="71dp"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="R/M G "
@@ -90,10 +94,11 @@
 
     <EditText
         android:id="@+id/editTextText40"
-        android:layout_width="212dp"
-        android:layout_height="69dp"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Groepsolo's G "

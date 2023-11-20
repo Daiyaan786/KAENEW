@@ -35,10 +35,11 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="345dp"
-        android:layout_height="59dp"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewEmail"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -57,6 +58,7 @@
         android:layout_width="376dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewPassword"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -73,9 +75,10 @@
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="378dp"
-        android:layout_height="44dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:autofillHints=""
+        android:background="@drawable/rounded_input_background"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewName"
@@ -93,9 +96,9 @@
     <EditText
         android:id="@+id/editTextSchool"
         android:layout_width="375dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="12dp"
+        android:layout_height="50dp"
         android:layout_marginTop="4dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewSchool"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -112,8 +115,9 @@
     <EditText
         android:id="@+id/editTextSchoolContact"
         android:layout_width="372dp"
-        android:layout_height="56dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:inputType="phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewSchoolContact"
@@ -131,8 +135,9 @@
     <EditText
         android:id="@+id/editTextYourContact"
         android:layout_width="375dp"
-        android:layout_height="44dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:inputType="phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewYourContact"
@@ -150,8 +155,9 @@
     <EditText
         android:id="@+id/editTextSchoolAddress"
         android:layout_width="374dp"
-        android:layout_height="56dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:inputType="text|textPostalAddress|textNoSuggestions"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewSchoolAddress"

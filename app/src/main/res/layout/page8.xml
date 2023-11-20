@@ -45,10 +45,11 @@
 
     <EditText
         android:id="@+id/editTextText34"
-        android:layout_width="212dp"
-        android:layout_height="72dp"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME "
@@ -57,10 +58,11 @@
 
     <EditText
         android:id="@+id/editTextText35"
-        android:layout_width="215dp"
-        android:layout_height="64dp"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
         android:layout_marginStart="22dp"
         android:layout_marginTop="1dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="G	 "

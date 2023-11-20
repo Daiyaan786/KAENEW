@@ -49,6 +49,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="33dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -57,10 +58,11 @@
 
     <EditText
         android:id="@+id/editTextText68"
-        android:layout_width="320dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="313dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skoolgrade		 "
@@ -69,10 +71,11 @@
 
     <EditText
         android:id="@+id/editTextText69"
-        android:layout_width="310dp"
-        android:layout_height="90dp"
+        android:layout_width="313dp"
+        android:layout_height="69dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="KJ		 "

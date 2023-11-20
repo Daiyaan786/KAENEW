@@ -41,9 +41,10 @@
 
     <EditText
         android:id="@+id/editTextText182"
-        android:layout_width="213dp"
-        android:layout_height="70dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad "
@@ -52,9 +53,10 @@
 
     <EditText
         android:id="@+id/editTextText185"
-        android:layout_width="211dp"
+        android:layout_width="210dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Dromstel JP "
@@ -64,9 +66,10 @@
     <EditText
         android:id="@+id/editTextText186"
         android:layout_width="210dp"
-        android:layout_height="65dp"
+        android:layout_height="64dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="62dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -94,10 +97,11 @@
 
     <EditText
         android:id="@+id/editTextText187"
-        android:layout_width="209dp"
-        android:layout_height="65dp"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="7dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Perkussie JP "

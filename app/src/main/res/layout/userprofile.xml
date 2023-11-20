@@ -12,6 +12,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
@@ -21,6 +22,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="7dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView84" />
 
@@ -30,6 +32,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView83" />
 
@@ -39,6 +42,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView82" />
 
@@ -59,6 +63,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="41dp"
         android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView80" />
 
@@ -68,6 +73,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_input_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView81" />
 

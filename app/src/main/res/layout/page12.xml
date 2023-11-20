@@ -27,11 +27,12 @@
 
     <EditText
         android:id="@+id/editTextText55"
-        android:layout_width="243dp"
-        android:layout_height="67dp"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -84,10 +85,11 @@
 
     <EditText
         android:id="@+id/editTextText57"
-        android:layout_width="237dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
         android:layout_marginStart="24dp"
         android:layout_marginBottom="44dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="K"
@@ -99,14 +101,13 @@
         android:layout_width="240dp"
         android:layout_height="63dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="23dp"
         android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skoolgrade		 "
         app:layout_constraintBottom_toTopOf="@+id/editTextText57"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText55" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

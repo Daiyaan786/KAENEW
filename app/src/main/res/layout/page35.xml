@@ -25,9 +25,10 @@
 
     <EditText
         android:id="@+id/editTextText177"
-        android:layout_width="208dp"
-        android:layout_height="58dp"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad "
@@ -36,9 +37,10 @@
 
     <EditText
         android:id="@+id/editTextText164"
-        android:layout_width="208dp"
-        android:layout_height="56dp"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Groepsolo's STS "
@@ -47,9 +49,10 @@
 
     <EditText
         android:id="@+id/editTextText174"
-        android:layout_width="208dp"
-        android:layout_height="57dp"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Instrument "
@@ -58,9 +61,10 @@
 
     <EditText
         android:id="@+id/editTextText175"
-        android:layout_width="210dp"
-        android:layout_height="57dp"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="B/K STS "
@@ -83,6 +87,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="52dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
@@ -101,9 +106,10 @@
 
     <EditText
         android:id="@+id/editTextText179"
-        android:layout_width="207dp"
-        android:layout_height="54dp"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
         android:layout_marginStart="21dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Concerto STS "
@@ -113,8 +119,9 @@
     <EditText
         android:id="@+id/editTextText180"
         android:layout_width="209dp"
-        android:layout_height="57dp"
+        android:layout_height="55dp"
         android:layout_marginStart="19dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="R/M STS "
