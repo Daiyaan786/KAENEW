@@ -8,9 +8,16 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 
 class EntryForm : AppCompatActivity() {
+
     private val pageNames = arrayOf("Blokfluit/Recorder Duet", "Blokfluit/Recorder : Ensembles", "Blokfluit/Recorder : Solo", "Ensembles en Orkeste",
         "Fotografie/Photography","Houtblaasinstrumente/Woodwinds : Duet" , "Houtblaasinstrumente: Sol Woodwinds : Solo" , "Klassieke Kitaar : Duet" ,
         "Klassieke Kitaar : Solo", "Junior Klavier Skoolgraad 6-7 Solo", "Junior Klavier : Solo Skoolgraad R - 5" ,  "Klavier Duet : Senior" ,
@@ -23,10 +30,31 @@ class EntryForm : AppCompatActivity() {
 
     )
 
+    // Define a reference to the database
+    private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
+    // a root *node* reference
+    private val reference: DatabaseReference = database.getReference()
+
+    private lateinit var SchoolTextView: TextView
+    private lateinit var SchoolPhoneNumTextView: TextView
+    private lateinit var PhoneNumTextView: TextView
+    private lateinit var EmailTextView: TextView
+    private lateinit var SchoolAddressTextView: TextView
+    private lateinit var ChildrenTextView: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.entryform)
-
+        //
+        SchoolTextView = findViewById(R.id.editTextText193)
+        SchoolPhoneNumTextView = findViewById(R.id.editTextText194)
+        PhoneNumTextView = findViewById(R.id.editTextText195)
+        EmailTextView = findViewById(R.id.editTextText196)
+        SchoolAddressTextView = findViewById(R.id.editTextText197)
+        ChildrenTextView = findViewById(R.id.textView77)
+        //
+        loadTeacherInfo()
+        //
         val spinner = findViewById<Spinner>(R.id.spinner)
 
         // Create an ArrayAdapter and set it to the Spinner
@@ -259,6 +287,61 @@ class EntryForm : AppCompatActivity() {
                 val intent = Intent(this, Page38::class.java)
                 startActivity(intent)
             }
+        }
+    }
+
+    // FUNCTION TO LOAD THE TEACHER'S INFO
+    private fun loadTeacherInfo() {
+        // Get teacher's persisting ID from TeacherIdHolder
+        val teacherId = TeacherIdHolder.teacherId
+
+        // Check if the teacherId is not null before querying the database
+        if (!teacherId.isNullOrBlank()) {
+            // Reference to the specific teacher's node in the database
+            val teacherNodeRef = reference.child("Teachers").child(teacherId)
+
+            // Read the data from the database
+            teacherNodeRef.addListenerForSingleValueEvent(object : ValueEventListener {
+                override fun onDataChange(dataSnapshot: DataSnapshot) {
+                    // Check if the dataSnapshot exists
+                    if (dataSnapshot.exists()) {
+                        // Retrieve the teacher's information
+                        val school = dataSnapshot.child("School").getValue(String::class.java)
+                        val schoolPhoneNum =
+                            dataSnapshot.child("SchoolPhoneNum").getValue(String::class.java)
+                        val phoneNum = dataSnapshot.child("PhoneNum").getValue(String::class.java)
+                        val email = dataSnapshot.child("Email").getValue(String::class.java)
+                        val schoolAddress =
+                            dataSnapshot.child("SchoolAddress").getValue(String::class.java)
+                        val numChildren = dataSnapshot.child("NumChildren").getValue(Int::class.java)
+
+                        // Initialize StringBuilder for ChildrenTextView
+                        val childrenTextBuilder = StringBuilder()
+
+                        // Loop through children and append their names to the StringBuilder
+                        if (numChildren != null) {
+                            for (i in 1..numChildren) {
+                                val childName = dataSnapshot.child("Child $i").getValue(String::class.java)
+                                if (!childName.isNullOrBlank()) {
+                                    childrenTextBuilder.append("$childName\n")
+                                }
+                            }
+                        }
+
+                        // Update the TextViews with the retrieved information
+                        SchoolTextView.text = school
+                        SchoolPhoneNumTextView.text = schoolPhoneNum
+                        PhoneNumTextView.text = phoneNum
+                        EmailTextView.text = email
+                        SchoolAddressTextView.text = schoolAddress
+                        ChildrenTextView.text = childrenTextBuilder.toString()
+                    }
+                }
+
+                override fun onCancelled(databaseError: DatabaseError) {
+                    // Handle errors here
+                }
+            })
         }
     }
 }
