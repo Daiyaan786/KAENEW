@@ -9,9 +9,20 @@ import com.example.kae.R.id.btnLoginBackBtn
 import android.content.Context
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import com.example.kae.TeacherIdHolder
 
 
 class LoginActivity : AppCompatActivity() {
+
+    // Define a reference to the database
+    private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
+    // a root *node* reference
+    private val reference: DatabaseReference = database.getReference()
 
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
@@ -36,14 +47,8 @@ class LoginActivity : AppCompatActivity() {
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
-
-            // LOGIN AUTHENTICATION CHECK
-             if (isValidUser(email, password)) {
-                 val intent = Intent(this, EntryForm::class.java)
-                 startActivity(intent)
-             } else {
-                 showMessage(this, "Incorrect Details.") // error message
-             }
+            //
+            (isValidUser(email, password))
         }
     }
 
@@ -52,8 +57,41 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
     }
 // Authentication Logic
-    private fun isValidUser(email: String, password: String): Boolean {
-         // Authentication
-        return email == "admin" && password == "admin123"
-     }
+private fun isValidUser(email: String, password: String) {
+    val teachersRef = reference.child("Teachers")
+
+    // Query the database to find matching email and password
+    teachersRef.orderByChild("Email").equalTo(email).addListenerForSingleValueEvent(object :
+        ValueEventListener {
+        override fun onDataChange(dataSnapshot: DataSnapshot) {
+            // Check if the email exists
+            if (dataSnapshot.exists()) {
+                // Iterate through the results
+                for (teacherSnapshot in dataSnapshot.children) {
+                    // Get the stored password
+                    val storedPassword = teacherSnapshot.child("Password").getValue(String::class.java)
+
+                    // Check if the provided password matches the stored password
+                    if (storedPassword == password) {
+                        // Authentication successful
+                        val teacherId = teacherSnapshot.key
+                        TeacherIdHolder.teacherId = teacherId
+                        //
+                        val intent = Intent(this@LoginActivity, EntryForm::class.java)
+                        startActivity(intent)
+                        return
+                    }
+                }
+            }
+
+            // Authentication failed
+            showMessage(this@LoginActivity, "Incorrect Details.")
+        }
+
+        override fun onCancelled(databaseError: DatabaseError) {
+            // Handle errors here
+        }
+    })
+}
+
 }
