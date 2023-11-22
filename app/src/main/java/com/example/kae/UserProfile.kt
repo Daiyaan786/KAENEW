@@ -5,11 +5,10 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
-import com.example.kae.TeacherIdHolder
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class UserProfile : AppCompatActivity() {
@@ -60,12 +59,12 @@ class UserProfile : AppCompatActivity() {
                     // Check if the dataSnapshot exists
                     if (dataSnapshot.exists()) {
                         // Retrieve the teacher's information
-                        val name = dataSnapshot.child("Name").getValue(String::class.java)
-                        val email = dataSnapshot.child("Email").getValue(String::class.java)
-                        val phoneNum = dataSnapshot.child("PhoneNum").getValue(String::class.java)
-                        val school = dataSnapshot.child("School").getValue(String::class.java)
-                        val schoolAddress = dataSnapshot.child("SchoolAddress").getValue(String::class.java)
-                        val schoolPhoneNum = dataSnapshot.child("SchoolPhoneNum").getValue(String::class.java)
+                        val name = dataSnapshot.child("name").getValue(String::class.java)
+                        val email = dataSnapshot.child("email").getValue(String::class.java)
+                        val phoneNum = dataSnapshot.child("phoneNum").getValue(String::class.java)
+                        val school = dataSnapshot.child("school").getValue(String::class.java)
+                        val schoolAddress = dataSnapshot.child("schoolAddress").getValue(String::class.java)
+                        val schoolPhoneNum = dataSnapshot.child("schoolPhoneNum").getValue(String::class.java)
 
                         // Update the TextViews with the retrieved information
                         NameTextView.text = name

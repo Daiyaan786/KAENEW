@@ -1,12 +1,11 @@
 package com.example.kae
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.view.View
-import com.example.kae.R.id.btnLoginBackBtn
-import android.content.Context
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -14,7 +13,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.example.kae.TeacherIdHolder
 
 
 class LoginActivity : AppCompatActivity() {
@@ -61,7 +59,7 @@ private fun isValidUser(email: String, password: String) {
     val teachersRef = reference.child("Teachers")
 
     // Query the database to find matching email and password
-    teachersRef.orderByChild("Email").equalTo(email).addListenerForSingleValueEvent(object :
+    teachersRef.orderByChild("email").equalTo(email).addListenerForSingleValueEvent(object :
         ValueEventListener {
         override fun onDataChange(dataSnapshot: DataSnapshot) {
             // Check if the email exists
@@ -69,7 +67,7 @@ private fun isValidUser(email: String, password: String) {
                 // Iterate through the results
                 for (teacherSnapshot in dataSnapshot.children) {
                     // Get the stored password
-                    val storedPassword = teacherSnapshot.child("Password").getValue(String::class.java)
+                    val storedPassword = teacherSnapshot.child("password").getValue(String::class.java)
 
                     // Check if the provided password matches the stored password
                     if (storedPassword == password) {
