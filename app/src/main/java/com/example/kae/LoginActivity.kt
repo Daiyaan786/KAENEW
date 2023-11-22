@@ -74,10 +74,13 @@ private fun isValidUser(email: String, password: String) {
                         // Authentication successful
                         val teacherId = teacherSnapshot.key
                         TeacherIdHolder.teacherId = teacherId
+
+                        showMessage(this@LoginActivity, "Login Successful.")
                         //
                         val intent = Intent(this@LoginActivity, EntryForm::class.java)
                         startActivity(intent)
                         return
+
                     }
                 }
             }

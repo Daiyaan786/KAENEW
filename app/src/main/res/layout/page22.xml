@@ -21,8 +21,8 @@
 
     <EditText
         android:id="@+id/editTextText99"
-        android:layout_width="234dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/rounded_input_background"
@@ -47,10 +47,10 @@
 
     <EditText
         android:id="@+id/editTextText97"
-        android:layout_width="233dp"
-        android:layout_height="59dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -60,9 +60,10 @@
 
     <EditText
         android:id="@+id/editTextText98"
-        android:layout_width="234dp"
-        android:layout_height="66dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"

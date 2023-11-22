@@ -43,12 +43,12 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="369dp"
-        android:layout_height="88dp"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/rounded_input_background"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
         android:hint="@string/Email"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,12 +66,12 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="369dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="11dp"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_input_background"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
         android:hint="@string/PassWord"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"

@@ -30,10 +30,10 @@
 
     <EditText
         android:id="@+id/editTextText127"
-        android:layout_width="224dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -43,10 +43,10 @@
 
     <EditText
         android:id="@+id/editTextText129"
-        android:layout_width="224dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="7dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -56,10 +56,10 @@
 
     <EditText
         android:id="@+id/editTextText130"
-        android:layout_width="224dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -69,8 +69,8 @@
 
     <EditText
         android:id="@+id/editTextText131"
-        android:layout_width="224dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="31dp"
         android:background="@drawable/rounded_input_background"
@@ -82,9 +82,10 @@
 
     <EditText
         android:id="@+id/editTextText132"
-        android:layout_width="224dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"

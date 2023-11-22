@@ -44,8 +44,8 @@
 
     <EditText
         android:id="@+id/editTextText36"
-        android:layout_width="254dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/rounded_input_background"
@@ -57,9 +57,10 @@
 
     <EditText
         android:id="@+id/editTextText37"
-        android:layout_width="254dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="23dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -69,9 +70,10 @@
 
     <EditText
         android:id="@+id/editTextText38"
-        android:layout_width="254dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="23dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -81,10 +83,10 @@
 
     <EditText
         android:id="@+id/editTextText39"
-        android:layout_width="254dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -94,10 +96,10 @@
 
     <EditText
         android:id="@+id/editTextText40"
-        android:layout_width="254dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="1dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"

@@ -27,9 +27,9 @@
 
     <EditText
         android:id="@+id/editTextText55"
-        android:layout_width="240dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_input_background"
@@ -85,29 +85,31 @@
 
     <EditText
         android:id="@+id/editTextText57"
-        android:layout_width="240dp"
-        android:layout_height="63dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="44dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="K"
         app:layout_constraintBottom_toTopOf="@+id/textView26"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText56" />
 
     <EditText
         android:id="@+id/editTextText56"
-        android:layout_width="240dp"
-        android:layout_height="63dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="24dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skoolgrade		 "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText57"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText55" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

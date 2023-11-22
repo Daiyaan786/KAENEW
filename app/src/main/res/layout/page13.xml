@@ -26,10 +26,10 @@
 
     <EditText
         android:id="@+id/editTextText60"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="83dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
@@ -42,83 +42,87 @@
 
     <EditText
         android:id="@+id/editTextText59"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Skool graad "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText60"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText58" />
 
     <EditText
         android:id="@+id/editTextText66"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Unisa UN "
         app:layout_constraintBottom_toTopOf="@+id/textView28"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText65" />
 
     <CheckBox
         android:id="@+id/checkBox26"
         android:layout_width="90dp"
         android:layout_height="54dp"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         android:text="Video"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox25" />
+        app:layout_constraintStart_toEndOf="@+id/checkBox25"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <EditText
         android:id="@+id/editTextText62"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Jazz K "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText63"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText61" />
 
     <EditText
         android:id="@+id/editTextText63"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Groepsolo's K "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText64"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText62" />
 
     <EditText
         android:id="@+id/editTextText65"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Sonate K "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText66"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText64" />
 
     <EditText
         android:id="@+id/editTextText58"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="108dp"
         android:background="@drawable/rounded_input_background"
@@ -130,16 +134,16 @@
 
     <EditText
         android:id="@+id/editTextText64"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="JS Bach K "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText65"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText63" />
 
     <TextView
         android:id="@+id/textView28"
@@ -175,16 +179,16 @@
 
     <EditText
         android:id="@+id/editTextText61"
-        android:layout_width="255dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="R/M K "
-        app:layout_constraintBottom_toTopOf="@+id/editTextText62"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText60" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

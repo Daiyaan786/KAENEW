@@ -20,9 +20,11 @@
 
     <EditText
         android:id="@+id/editTextText181"
-        android:layout_width="375dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Duet/Trio/Ensemble JP (hoveelheid deelnemers) "
@@ -41,9 +43,10 @@
 
     <EditText
         android:id="@+id/editTextText182"
-        android:layout_width="210dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -53,9 +56,10 @@
 
     <EditText
         android:id="@+id/editTextText185"
-        android:layout_width="210dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -65,8 +69,8 @@
 
     <EditText
         android:id="@+id/editTextText186"
-        android:layout_width="210dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="62dp"
         android:background="@drawable/rounded_input_background"
@@ -97,10 +101,10 @@
 
     <EditText
         android:id="@+id/editTextText187"
-        android:layout_width="210dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"

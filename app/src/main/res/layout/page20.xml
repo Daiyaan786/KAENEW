@@ -34,61 +34,53 @@
 
     <EditText
         android:id="@+id/editTextText83"
-        android:layout_width="237dp"
-        android:layout_height="69dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="29dp"
-        android:layout_marginEnd="144dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="VANNE EN NAME"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView40" />
 
     <EditText
         android:id="@+id/editTextText91"
-        android:layout_width="237dp"
-        android:layout_height="60dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="144dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="GRAAD"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText83" />
 
     <EditText
         android:id="@+id/editTextText92"
-        android:layout_width="236dp"
-        android:layout_height="61dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="145dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Gedig GE "
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText91" />
 
     <EditText
         android:id="@+id/editTextText93"
-        android:layout_width="234dp"
-        android:layout_height="68dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="147dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Prosa PE "
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText92" />
 </androidx.constraintlayout.widget.ConstraintLayout>

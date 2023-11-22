@@ -25,8 +25,8 @@
 
     <EditText
         android:id="@+id/editTextText155"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/rounded_input_background"
@@ -38,9 +38,10 @@
 
     <EditText
         android:id="@+id/editTextText156"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -50,9 +51,10 @@
 
     <EditText
         android:id="@+id/editTextText157"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -72,9 +74,10 @@
 
     <EditText
         android:id="@+id/editTextText159"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="17dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -84,9 +87,10 @@
 
     <EditText
         android:id="@+id/editTextText160"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -96,9 +100,10 @@
 
     <EditText
         android:id="@+id/editTextText161"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -108,10 +113,10 @@
 
     <EditText
         android:id="@+id/editTextText163"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -141,9 +146,10 @@
 
     <EditText
         android:id="@+id/editTextText165"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -153,15 +159,16 @@
 
     <EditText
         android:id="@+id/editTextText166"
-        android:layout_width="213dp"
-        android:layout_height="64dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
         android:text="Lees OL "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText156"
-        android:background="@drawable/rounded_input_background" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText156" />
 
     <TextView
         android:id="@+id/textView61"

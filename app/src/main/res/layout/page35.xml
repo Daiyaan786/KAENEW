@@ -25,9 +25,10 @@
 
     <EditText
         android:id="@+id/editTextText177"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -37,9 +38,10 @@
 
     <EditText
         android:id="@+id/editTextText164"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -49,9 +51,10 @@
 
     <EditText
         android:id="@+id/editTextText174"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -61,9 +64,10 @@
 
     <EditText
         android:id="@+id/editTextText175"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -83,8 +87,8 @@
 
     <EditText
         android:id="@+id/editTextText178"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/rounded_input_background"
@@ -106,9 +110,10 @@
 
     <EditText
         android:id="@+id/editTextText179"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
@@ -118,9 +123,10 @@
 
     <EditText
         android:id="@+id/editTextText180"
-        android:layout_width="209dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="19dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
         android:inputType="text"
