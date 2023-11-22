@@ -1,8 +1,8 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -52,6 +52,8 @@ class Page4 : AppCompatActivity() {
             val jazzOrkes = jazzOrkesEditText.text.toString()
             //
             submitDataToFirebase(entryDescription,vanneEnName, skool, getalSpelers, kleinEns, grootEns, orkes, jazzOrkes)
+            val intent = Intent(this@Page4, EntryForm::class.java)
+            startActivity(intent)
         }
     }
 

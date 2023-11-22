@@ -1,5 +1,6 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
@@ -73,11 +74,15 @@ class Page3 : AppCompatActivity() {
             else if (FaceToFaceCheckBox.isChecked) {
                 FaceToFace=true
                 submitDataToFirebase(entryDescription,vanneEnName, skoolGraad, VBBCB, NBCB, OnbCB, VBBFB, NBFB, OnbFB, SonB, ConcB, FaceToFace)
+                val intent = Intent(this@Page3, EntryForm::class.java)
+                startActivity(intent)
             }
             //Video is checked
             else if (VideoCheckBox.isChecked) {
                 FaceToFace=false
                 submitDataToFirebase(entryDescription,vanneEnName, skoolGraad, VBBCB, NBCB, OnbCB, VBBFB, NBFB, OnbFB, SonB, ConcB, FaceToFace)
+                val intent = Intent(this@Page3, EntryForm::class.java)
+                startActivity(intent)
             }
             // If neither checkbox is checked
             else {

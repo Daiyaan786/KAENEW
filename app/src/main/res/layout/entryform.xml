@@ -115,6 +115,7 @@
         android:layout_height="98dp"
         android:layout_marginStart="41dp"
         android:layout_marginTop="14dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
@@ -124,6 +125,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="39dp"
         android:layout_marginTop="6dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView77" />
 
@@ -133,6 +135,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="43dp"
         android:layout_marginTop="12dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView78" />
 

@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener
 
 class EntryForm : AppCompatActivity() {
 
-    private val pageNames = arrayOf("Blokfluit/Recorder Duet", "Blokfluit/Recorder : Ensembles", "Blokfluit/Recorder : Solo", "Ensembles en Orkeste",
+    private val pageNames = arrayOf("Select a Entry Form" , "Blokfluit/Recorder Duet", "Blokfluit/Recorder : Ensembles", "Blokfluit/Recorder : Solo", "Ensembles en Orkeste",
         "Fotografie/Photography","Houtblaasinstrumente/Woodwinds : Duet" , "Houtblaasinstrumente: Sol Woodwinds : Solo" , "Klassieke Kitaar : Duet" ,
         "Klassieke Kitaar : Solo", "Junior Klavier Skoolgraad 6-7 Solo", "Junior Klavier : Solo Skoolgraad R - 5" ,  "Klavier Duet : Senior" ,
         "Senior Klavier : Solo" , "Samespel Klavier : Skoolgraad 3- Piano Duet : School Grade 3-5","Samespel Klavier : Skoolgraad 6-7 Piano Duet : School Grades 6-7",
@@ -93,6 +93,11 @@ class EntryForm : AppCompatActivity() {
 
     private fun navigateToPage(pageName: String) {
         when (pageName) {
+            "Select a Entry Form" -> {
+                // Start an activity or fragment for EntryForm
+
+            }
+
             "Blokfluit/Recorder Duet" -> {
                 // Start an activity or fragment for Page 1
                 val intent = Intent(this, Page1::class.java)

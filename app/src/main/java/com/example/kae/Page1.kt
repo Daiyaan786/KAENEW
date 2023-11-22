@@ -1,12 +1,12 @@
 package com.example.kae
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import android.view.View
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -53,11 +53,15 @@ class Page1: AppCompatActivity() {
             else if (FaceToFaceCheckBox.isChecked) {
                 FaceToFace=true
                 submitDataToFirebase(entryDescription,vanneEnName, SkoolGraad, Blokfluit, FaceToFace)
+                val intent = Intent(this@Page1, EntryForm::class.java)
+                startActivity(intent)
             }
             //Video is checked
             else if (VideoCheckBox.isChecked) {
                 FaceToFace=false
                 submitDataToFirebase(entryDescription,vanneEnName, SkoolGraad, Blokfluit, FaceToFace)
+                val intent1 = Intent(this@Page1, EntryForm::class.java)
+                startActivity(intent1)
             }
             // If neither checkbox is checked
             else {
