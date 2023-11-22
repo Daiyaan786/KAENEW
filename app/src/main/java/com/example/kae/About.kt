@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kae.R.id.btnAboutBackBtn
-import com.example.kae.R.layout.about
 
 
 class About : AppCompatActivity() {
@@ -17,7 +16,7 @@ class About : AppCompatActivity() {
         val backButton = findViewById<View>(btnAboutBackBtn)
 //BACK BUTTON TO MAINACTIVITY
         backButton.setOnClickListener {
-            val intent = Intent(this@About, MainActivity::class.java)
+            val intent = Intent(this@About, EntryForm::class.java)
             startActivity(intent) }
     }
 }

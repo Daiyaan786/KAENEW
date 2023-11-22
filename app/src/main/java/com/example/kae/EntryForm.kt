@@ -321,7 +321,7 @@ class EntryForm : AppCompatActivity() {
                         // Loop through children and append their names to the StringBuilder
                         if (numChildren != null) {
                             for (i in 1..numChildren) {
-                                val childName = dataSnapshot.child("child $i").getValue(String::class.java)
+                                val childName = dataSnapshot.child("Child $i").getValue(String::class.java)
                                 if (!childName.isNullOrBlank()) {
                                     childrenTextBuilder.append("$childName\n")
                                 }

@@ -40,7 +40,7 @@ class UserProfile : AppCompatActivity() {
         //BACK BUTTON
         val backButton = findViewById<View>(R.id.button44)
         backButton.setOnClickListener {
-            val intent = Intent(this@UserProfile, MainActivity::class.java)
+            val intent = Intent(this@UserProfile, EntryForm::class.java)
             startActivity(intent) }
         //
 
