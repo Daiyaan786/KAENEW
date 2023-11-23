@@ -25,6 +25,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="StartPage"
+            android:exported="true" />
+        <activity
             android:name="Page1"
             android:exported="true" />
 

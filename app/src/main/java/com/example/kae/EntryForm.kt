@@ -62,6 +62,12 @@ class EntryForm : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
 
+
+        val backButton = findViewById<View>(R.id.button42)
+        backButton.setOnClickListener {
+            val intent = Intent(this@EntryForm, StartPage::class.java)
+            startActivity(intent) }
+
         // Set an OnItemSelectedListener for the Spinner
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {

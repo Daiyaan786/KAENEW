@@ -77,7 +77,7 @@ private fun isValidUser(email: String, password: String) {
 
                         showMessage(this@LoginActivity, "Login Successful.")
                         //
-                        val intent = Intent(this@LoginActivity, EntryForm::class.java)
+                        val intent = Intent(this@LoginActivity, StartPage::class.java)
                         startActivity(intent)
                         return
 

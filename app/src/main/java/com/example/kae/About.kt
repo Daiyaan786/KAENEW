@@ -16,7 +16,7 @@ class About : AppCompatActivity() {
         val backButton = findViewById<View>(btnAboutBackBtn)
 //BACK BUTTON TO MAINACTIVITY
         backButton.setOnClickListener {
-            val intent = Intent(this@About, EntryForm::class.java)
+            val intent = Intent(this@About, MainActivity::class.java)
             startActivity(intent) }
     }
 }

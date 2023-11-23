@@ -2,6 +2,8 @@ package com.example.kae
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +14,22 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class UserProfile : AppCompatActivity() {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.burgermenu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.user_profile -> startActivity(Intent(this, UserProfile::class.java))
+            R.id.entries -> startActivity(Intent(this, EntryForm::class.java))
+            R.id.video_entries -> startActivity(Intent(this, VideoEntries::class.java))
+            // Add more cases for other menu items if needed
+
+            else -> return super.onOptionsItemSelected(item)
+        }
+        return true
+    }
 
 
     // Define a reference to the database
@@ -40,7 +58,7 @@ class UserProfile : AppCompatActivity() {
         //BACK BUTTON
         val backButton = findViewById<View>(R.id.button44)
         backButton.setOnClickListener {
-            val intent = Intent(this@UserProfile, EntryForm::class.java)
+            val intent = Intent(this@UserProfile, StartPage::class.java)
             startActivity(intent) }
         //
 
