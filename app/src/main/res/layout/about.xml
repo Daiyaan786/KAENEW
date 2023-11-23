@@ -14,18 +14,19 @@
 
     <TextView
         android:id="@+id/aboutText"
-        android:layout_width="337dp"
-        android:layout_height="488dp"
+        android:layout_width="374dp"
+        android:layout_height="1271dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
-        android:text="Die Kaapse Afrikaanse Eisteddfod is die oudste Afrikaanse eisteddfod in Suid-Afrika en is die eerste keer in 1927 aangebied.\n\nDie Kaapse Afrikaanse Eisteddfod bied 'n platform vir leerders om hul kreatiwiteit te ontwikkel en hul talente te wys aan 'n breër gehoor.\n\nDie eisteddfod sluit kategorieë in soos koor, orkes, solo-sang, voordrag, toneel, poësie, prosa en beeldende kuns."
+        android:text="Die Kaapse Afrikaanse Eisteddfod is in 1927 deur ’n paar lede van die Suid-Afrikaanse Onderwysersunie (SAOU) gestig. Afrikaans het in Mei 1925 amptelike status gekry, danksy die groot rol wat C.J. Langenhoven gespeel het. Op daardie tydstip was daar die Suid-Afrikaanse Eisteddfod waaraan ook die Afrikaanssprekende leerlinge deelgeneem het. Toe laasgenoemde eisteddfod nie in 1927 sou plaasvind nie, het die betrokke onderwysers besluit dat die tyd ryp was vir ’n eie Afrikaanse eisteddfod.    Op 25 Januarie 1926 het die eerste Afrikaansmedium skool in Kaapstad sy deure geopen, naamlik Jan van Riebeeck. Die eerste skoolhoof, mnr. J.J. Jordaan, was ’n aktiewe lid van die SAOU en het dan ook die voorsitterstoel van die nuutgestigte eisteddfod ingeneem. Twee baie bekende Kaapse dames, wat as sekretaresses opgetree het, was Sarah Goldblatt en Essie Malan. Die hele sillabus het in Die Unie van September 1927 verskyn en die eisteddfod is geldelik deur Die Huisgenoot gedra. Die beoordeling het op 15 Oktober 1927 afgeskop en die Eerste Minister het self die pryse aan die wenners oorhandig.    Sedert daardie tyd het Die Kaapse Afrikaanse Eisteddfod ’n lang pad gekom en kan tereg beskou word as die oudste Afrikaanse eisteddfod in Suid-Afrika. Die eisteddfod word jaarliks aangebied. Daar is ’n uitvoerende bestuur in beheer, wat ’n voltydse sekretaresse insluit, asook verskeie sameroepers wat die verskillende afdelings hanteer. Die Prestige-aand, wat gewoonlik in September of Oktober aangebied word, bevat ’n kort program van hoogstaande gehalte. Dis ook wanneer die wenners hulle medaljes ontvang en die “Beste Veelsydige Deelnemer” aangekondig word."
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView75" />
 
@@ -45,8 +46,8 @@
         android:id="@+id/btnAboutBackBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/rounded_input_background"
         android:backgroundTint="@color/redd"
         android:text="Back"
