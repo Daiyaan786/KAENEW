@@ -75,7 +75,6 @@
         android:layout_marginTop="33dp"
         android:background="@drawable/rounded_input_background"
         android:ems="10"
-        android:inputType="text"
         android:minHeight="48dp"
         android:text="VANNE EN NAME"
         app:layout_constraintStart_toStartOf="parent"

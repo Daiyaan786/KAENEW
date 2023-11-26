@@ -9,6 +9,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -29,7 +30,10 @@ class EntryForm : AppCompatActivity() {
         "Strykinstrumente Senior : Solo", "Strykinstrumente Senior : Duet" , "Junior Dromstel/Percussion" , "Senior Dromstel/Percussion"
 
     )
-
+    //Display Toast
+    private fun showToast(message: String) {
+        Toast.makeText(this@EntryForm, message, Toast.LENGTH_SHORT).show()
+    }
     // Define a reference to the database
     private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
     // a root *node* reference
@@ -67,6 +71,11 @@ class EntryForm : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this@EntryForm, StartPage::class.java)
             startActivity(intent) }
+
+        val submitBtn = findViewById<View>(R.id.button43)
+        submitBtn.setOnClickListener {
+            showToast("Great, Everything is submitted (Don't forget to upload the videos)")
+             }
 
         // Set an OnItemSelectedListener for the Spinner
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
