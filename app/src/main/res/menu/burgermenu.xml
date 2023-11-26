@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/app_bar_search"
         android:title="Search"
-        app:actionViewClass="android.widget.SearchView" />
+        app:actionViewClass="android.widget.SearchView"
+        android:background="@color/redd"/>
 
     <item
         android:id="@+id/user_profile"
-        android:title="User Profile" />
+        android:title="User Profile"
+        android:background="@color/redd"/>
 
     <item
         android:id="@+id/entries"
-        android:title="Entries" />
+        android:title="Entries"
+        android:background="@color/redd"/>
 
     <item
         android:id="@+id/video_entries"
-        android:title="Video Entries" />
+        android:title="Video Entries"
+        android:background="@color/redd"/>
 </menu>

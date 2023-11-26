@@ -1,10 +1,12 @@
 package com.example.kae
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -45,6 +47,21 @@ class VideoEntries : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this@VideoEntries, StartPage::class.java)
             startActivity(intent) }
+
+        val button = findViewById<Button>(R.id.button46) // Replace with your actual button ID
+
+        // Set OnClickListener on the button
+        button.setOnClickListener {
+            // Define the URL you want to open
+            val url =
+                "https://docs.google.com/forms/d/e/1FAIpQLSfjrk_FwPvNNLF0zf6p5on9fx0s3OBn3_U4QNRujz-7n953uw/viewform"
+
+            // Create an intent to open a web browser
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+
+            // Start the activity
+            startActivity(intent)
+        }
         //
         VideoEntryStateTextView = findViewById(R.id.textView89)
 

@@ -70,4 +70,16 @@
         android:text="BACK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="321dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/rounded_input_background"
+        android:backgroundTint="@color/redd"
+        android:text="ADD VIDEO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
 </androidx.constraintlayout.widget.ConstraintLayout>
