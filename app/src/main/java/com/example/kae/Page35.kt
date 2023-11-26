@@ -121,6 +121,7 @@ class Page35 : AppCompatActivity() {
             ConcertoSTS,
             FaceToFace
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)

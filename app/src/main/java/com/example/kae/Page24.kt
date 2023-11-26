@@ -120,6 +120,7 @@ class Page24 : AppCompatActivity() {
             BlyspelSJ,
             FaceToFace
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)

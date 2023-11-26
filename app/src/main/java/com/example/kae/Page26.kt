@@ -145,6 +145,7 @@ class Page26 : AppCompatActivity() {
             RocknPop,
             FaceToFace
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)

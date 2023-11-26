@@ -140,6 +140,7 @@ class Page3 : AppCompatActivity() {
             ConcB,
             FaceToFace
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)
