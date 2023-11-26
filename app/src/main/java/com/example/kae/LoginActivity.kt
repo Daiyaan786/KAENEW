@@ -13,6 +13,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import java.security.MessageDigest
 
 
 class LoginActivity : AppCompatActivity() {
@@ -66,11 +67,19 @@ private fun isValidUser(email: String, password: String) {
             if (dataSnapshot.exists()) {
                 // Iterate through the results
                 for (teacherSnapshot in dataSnapshot.children) {
-                    // Get the stored password
-                    val storedPassword = teacherSnapshot.child("password").getValue(String::class.java)
+                    // Get the stored hashed password and salt as Base64-encoded strings
+                    val storedHashedPassword =
+                        teacherSnapshot.child("hashedPassword").getValue(String::class.java)
+                    val storedSaltString = teacherSnapshot.child("saltString").getValue(String::class.java)
+
+                    // Convert the salt back to a byte array
+                    val storedSalt = decodeBase64(storedSaltString)
+
+                    // Combine the provided password and stored salt, and then hash the result
+                    val newHashedPassword = hashPassword(password, storedSalt)
 
                     // Check if the provided password matches the stored password
-                    if (storedPassword == password) {
+                    if (newHashedPassword == storedHashedPassword) {
                         // Authentication successful
                         val teacherId = teacherSnapshot.key
                         TeacherIdHolder.teacherId = teacherId
@@ -94,5 +103,23 @@ private fun isValidUser(email: String, password: String) {
         }
     })
 }
+    // Function to Combine the password and salt, and then hash the result
+    private fun hashPassword(password: String, salt: ByteArray): String {
+        val md = MessageDigest.getInstance("SHA-256")
+        md.update(salt)
+        val hashedBytes = md.digest(password.toByteArray(Charsets.UTF_8))
+
+        // Convert the byte array to a hexadecimal string
+        val stringBuilder = StringBuilder()
+        for (byte in hashedBytes) {
+            stringBuilder.append(String.format("%02x", byte))
+        }
+        return stringBuilder.toString()
+    }
+
+    // Function to ReConvert the Base64-encoded string to a byte array
+    private fun decodeBase64(data: String?): ByteArray {
+        return android.util.Base64.decode(data, android.util.Base64.DEFAULT)
+    }
 
 }
