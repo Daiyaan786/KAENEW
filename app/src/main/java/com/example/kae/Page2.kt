@@ -98,6 +98,7 @@ class Page2 : AppCompatActivity() {
             blokfluit,
             FaceToFace
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the "Blokfluit (Recorder) Ensembles" node
         val blokfluitNode = reference.child(description)

@@ -79,6 +79,7 @@ class Page20 : AppCompatActivity() {
             GedigGE,
             ProsaPE
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)

@@ -79,6 +79,7 @@ class Page19 : AppCompatActivity() {
             SkoolGraad,
             Onderwerp
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)

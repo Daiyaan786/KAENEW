@@ -75,6 +75,7 @@ class Page21 : AppCompatActivity() {
             Graad,
             PoetryPO
         )
+        FirebaseUtils.writeChildToTeacher(vanneEnName)
 
         // Reference to the node
         val Node = reference.child(description)
